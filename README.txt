@@ -2,7 +2,7 @@ Tekhelet
 ========
 Tekhelet – The look and feel of the Kisow Foundation.
 Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>
-Copyright 2015-2017, Kisow Foundation, Inc.
+Copyright, Kisow Foundation, Inc. 2015-2017.
 
 The Tekhelet theme is based in part on the Tyrian theme by Alex Legler.
 
