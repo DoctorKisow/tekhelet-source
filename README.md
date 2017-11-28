@@ -17,7 +17,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
 2. Follow the instructions below for your particular distribution:
 
 #### macOS
-1. Download and install the node.js package from https://nodejs.org/it/download.  
+1. Download and install the **node.js** package from https://nodejs.org/it/download.  
 2. From a terminal window, install "_**npm**_" globally.  
         `sudo npm install npm --global`
 3. Create a node directory.  
@@ -76,7 +76,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `npm install`  
         `npm install sources/css/bootstrap`  
         `npm install sources/css/tekhelet`  
-8. Run grunt from the root of tekhelet  
+8. Run "_**grunt**_" from the root of tekhelet  
         `cd /Users/<username>/Development/tekhelet-source`  
         `grunt`  
 
@@ -140,7 +140,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `npm install`  
         `npm install sources/css/bootstrap`  
         `npm install sources/css/tekhelet`  
-7. Run grunt from the root of tekhelet-source  
+7. Run "_**grunt**_" from the root of tekhelet-source  
         `cd /home/<username>/Development/tekhelet-source`  
         `grunt`  
 
