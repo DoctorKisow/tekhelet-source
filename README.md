@@ -11,21 +11,21 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
 
 ## Development
 1. From your development directory the clone tekhelet-source from this repository by typing:  
-        `mkdir -p /Users/``<username>``/Development/tekhelet-source`
-        `cd /Users/``<username>``/Development/tekhelet-source`  
+        `mkdir -p /Users/<username>/Development/tekhelet-source`
+        `cd /Users/<username>/Development/tekhelet-source`  
         `git clone https://github.com/DoctorKisow/tekhelet-source.git`
 
 ## macOS
 1. Download and install the node.js package from https://nodejs.org/it/download.  
 2. From a terminal window, install "npm" globally.  
-        sudo npm install npm --global  
+        `sudo npm install npm --global`
 3. Create a node directory.  
-        mkdir -p /Users/`<username>`/Development/tekhelet-source  
-        cd /Users/`<username>`/Development/tekhelet-source  
+        `mkdir -p /Users/<username>/Development/tekhelet-source`  
+        `cd /Users/<username>/Development/tekhelet-source`  
 4. From a terminal window, install "bootstrap" locally.  
-        npm install bootstrap@3  
-        mkdir -p sources/css/bootstrap  
-        cp -a node_modules/bootstrap sources/css/  
+        `npm install bootstrap@3`  
+        `mkdir -p sources/css/bootstrap`  
+        `cp -a node_modules/bootstrap sources/css/``  
 5. From a terminal window, install "grunt" globally.  
         sudo npm install -g grunt-cli  
 6. From a terminal window, install "grunt" locally.  
