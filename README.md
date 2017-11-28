@@ -1,4 +1,5 @@
 # Tekhelet
+
 Tekhelet – The look and feel of the Kisow Foundation.  
 Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>  
 Copyright 2015-2017, Kisow Foundation, Inc.  
@@ -14,22 +15,22 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
 ## macOS
 1. Download and install the node.js package from https://nodejs.org/it/download.  
 2. From a terminal window, install "npm" globally.  
-   sudo npm install npm --global  
+          sudo npm install npm --global  
 3. Create a node directory.  
-   mkdir -p /Users/<username>/Development/tekhelet-source  
-   cd /Users/<username>/Development/tekhelet-source  
+          mkdir -p /Users/<username>/Development/tekhelet-source  
+          cd /Users/<username>/Development/tekhelet-source  
 4. From a terminal window, install "bootstrap" locally.  
-   npm install bootstrap@3  
-   mkdir -p sources/css/bootstrap  
-   cp -a node_modules/bootstrap sources/css/  
+          npm install bootstrap@3  
+          mkdir -p sources/css/bootstrap  
+          cp -a node_modules/bootstrap sources/css/  
 5. From a terminal window, install "grunt" globally.  
-   sudo npm install -g grunt-cli  
+          sudo npm install -g grunt-cli  
 6. From a terminal window, install "grunt" locally.  
-   npm install grunt --save-dev  
-   npm install grunt-contrib-copy --save-dev  
-   npm install grunt-shell --save-dev  
-   cd sources/css/tekhelet-source  
-   npm install grunt --save-dev  
+          npm install grunt --save-dev  
+          npm install grunt-contrib-copy --save-dev  
+          npm install grunt-shell --save-dev  
+          cd sources/css/tekhelet-source  
+          npm install grunt --save-dev  
    npm install grunt-contrib-less --save-dev  
    npm install grunt-contrib-watch --save-dev  
    npm install grunt-copy --save-dev  
