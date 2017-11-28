@@ -7,6 +7,7 @@ node_modules
 
 # Exclude the "./assets" directory, the compile will generate this.
 assets/*
+!assets/.gitkeep
 
 # Exclude the contents of ".sources/css/bootstrap/*" but keep the directory.
 sources/css/bootstrap/*

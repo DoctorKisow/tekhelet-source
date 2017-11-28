@@ -11,10 +11,6 @@ Tekhelet, an ancient blue-violet dye made from the marine creature known as the 
 This dye is mentioned throughout the Hebrew Tanakh (Bible) and is the color worn by high
 priests.  It can range from violet-blue to bluish purple.
 
-### Deployment
-Please use the assets located on the CDN (Content Delivery Network) for live websites.
-See assets-cdn.txt for the URLs.
-
 ### Development
 1. From your development directory clone tekhelet-source from https://github.com/DoctorKisow/tekhelet-source.git
 
