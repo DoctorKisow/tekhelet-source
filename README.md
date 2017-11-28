@@ -12,7 +12,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
 ## Development
 1. From your development directory the clone tekhelet-source from this repository by typing:  
         `mkdir -p /Users/``<username>``/Development/tekhelet-source`
-        `cd /Users/``<username>``/Development/tekhelet-source`
+        `cd /Users/``<username>``/Development/tekhelet-source`  
         `git clone https://github.com/DoctorKisow/tekhelet-source.git`
 
 ## macOS
