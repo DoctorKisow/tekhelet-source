@@ -7,9 +7,7 @@ Copyright 2015-2017, Kisow Foundation, Inc.
 The Tekhelet theme is based in part on the Tyrian theme by Alex Legler.
 
 ### History
-Tekhelet, an ancient blue-violet dye made from the marine creature known as the Hillazon.
-This dye is mentioned throughout the Hebrew Tanakh (Bible) and is the color worn by high
-priests.  It can range from violet-blue to bluish purple.
+Tekhelet, is an ancient blue-violet dye that was made from the marine creature known as the Hillazon.  This dye is mentioned throughout the Hebrew Tanakh (Bible) and was the color traditionally worn by the religions high priests.  This color can range from violet-blue to  a bluish purple.
 
 ### Development
 1. From your development directory clone tekhelet-source from https://github.com/DoctorKisow/tekhelet-source.git
