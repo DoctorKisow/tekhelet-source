@@ -1,18 +1,23 @@
-# Exclude all ".DS_Store" and "package-lock.json" file(s) in entire project.
+# Exclude all ".DS_Store" and "package-lock.json" file(s) in the entire project.
 .DS_Store
 package-lock.json
 
-# Exclude the "./node_modules" directory.
+# Exclude all of the "node_modules" directories in the entire project.
 node_modules
 
-# Exclude the "./assets" directory, the compile will generate this.
+# Exclude the contents of "assets/*" but keep the directory. The grunt compile will
+# generate the contents of this directory.
 assets/*
 !assets/.gitkeep
 
-# Exclude the contents of ".sources/css/bootstrap/*" but keep the directory.
+# Exclude the contents of "sources/css/bootstrap/*" but keep the directory.
 sources/css/bootstrap/*
 !sources/css/bootstrap/.gitkeep
 
-# Exclude the contents of ".sources/img/src/*" but keep the directory.
+# Exclude the contents of "sources/css/tekhelet/dist/*" but keep the directory.
+sources/css/tekhelet/dist/*
+!sources/css/tekhelet/dist/.gitkeep
+
+# Exclude the contents of "sources/img/src/*" but keep the directory.
 sources/img/src/*
 !sources/img/src/.gitkeep

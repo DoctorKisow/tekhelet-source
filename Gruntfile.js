@@ -2,6 +2,8 @@
 // Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>
 // Copyright 2015-2017, Kisow Foundation, Inc.
 
+// The Tekhelet theme is based in part on the Tyrian theme by Alex Legler.
+
 'use strict';
 module.exports = function(grunt) {
     grunt.initConfig({
