@@ -1,8 +1,8 @@
 # Tekhelet
 
-Tekhelet – The look and feel of the Kisow Foundation.  
+**Tekhelet** – The look and feel of the Kisow Foundation.  
 Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>  
-Copyright &copy; 2015-2017, Kisow Foundation, Inc. &reg; 
+Copyright &copy; 2015-2017, Kisow Foundation, Inc.&reg;
 
 The Tekhelet theme is based in part on the Tyrian theme by Alex Legler.
 
@@ -16,7 +16,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `git clone https://github.com/DoctorKisow/tekhelet-source.git`
 2. Follow the instructions below for your particular distribution:
 
-#### macOS
+##### macOS
 1. Download and install the **node.js** package from https://nodejs.org/it/download.  
 2. From a terminal window, install "_**npm**_" globally.  
         `sudo npm install npm --global`
@@ -80,7 +80,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `cd /Users/<username>/Development/tekhelet-source`  
         `grunt`  
 
-#### Ubuntu/Debian
+##### Ubuntu/Debian
 1. Install "_**nodejs**_" and "_**npm**_" from the apt repository.  
         `sudo apt-get install nodejs`  
         `sudo ln -s "$(which nodejs)" /usr/local/bin/node`  
@@ -144,5 +144,5 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `cd /home/<username>/Development/tekhelet-source`  
         `grunt`  
 
-#### Other Distro's
+##### Other Distro's
 1. Should be similar to what is documented above; just use your distribution's package manager to install "_**npm**_".  
