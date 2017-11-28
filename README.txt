@@ -1,16 +1,15 @@
-# Tekhelet
+Tekhelet
+========
 Tekhelet – The look and feel of the Kisow Foundation.
-
 Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>
-
 Copyright 2015-2017, Kisow Foundation, Inc.
 
 The Tekhelet theme is based in part on the Tyrian theme by Alex Legler.
 
-## History
+### History
 Tekhelet, is an ancient blue-violet dye that was made from the marine creature known as the Hillazon.  This dye is mentioned throughout the Hebrew Tanakh (Bible) and was the color traditionally worn by the religions high priests.  This color can range from violet-blue to  a bluish purple.
 
-## Development
+### Development
 1. From your development directory clone tekhelet-source from https://github.com/DoctorKisow/tekhelet-source.git
 
 ## macOS
