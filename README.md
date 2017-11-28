@@ -14,21 +14,22 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `mkdir -p /Users/<username>/Development/tekhelet-source`  
         `cd /Users/<username>/Development/tekhelet-source`  
         `git clone https://github.com/DoctorKisow/tekhelet-source.git`
+2. Follow the instructions below for your particular distribution:
 
-## macOS
+#### macOS
 1. Download and install the node.js package from https://nodejs.org/it/download.  
-2. From a terminal window, install "**npm**" globally.  
+2. From a terminal window, install "_**npm**_" globally.  
         `sudo npm install npm --global`
 3. Create a node directory.  
         `mkdir -p /Users/<username>/Development/tekhelet-source`  
         `cd /Users/<username>/Development/tekhelet-source`  
-4. From a terminal window, install "**bootstrap**" locally.  
+4. From a terminal window, install "_**bootstrap**_" locally.  
         `npm install bootstrap@3`  
         `mkdir -p sources/css/bootstrap`  
         `cp -a node_modules/bootstrap sources/css/`  
-5. From a terminal window, install "**grunt**" globally.  
+5. From a terminal window, install "_**grunt**_" globally.  
         `sudo npm install -g grunt-cli`  
-6. From a terminal window, install "**grunt**" locally.  
+6. From a terminal window, install "_**grunt**_" locally.  
         `npm install grunt --save-dev`  
         `npm install grunt-contrib-copy --save-dev`
         `npm install grunt-shell --save-dev`  
@@ -70,7 +71,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `npm install time-grunt --save-dev`  
         `npm install shelljs --save-dev`  
         `npm install shx --save-dev`  
-7. Run "**npm install**" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**  
+7. Run "_**npm install**_" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**  
         `cd /Users/<username>/Development/tekhelet-source`  
         `npm install`  
         `npm install sources/css/bootstrap`  
@@ -79,21 +80,21 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `cd /Users/<username>/Development/tekhelet-source`  
         `grunt`  
 
-## Ubuntu/Debian
-1. Install "**nodejs**" and "**npm**" from the apt repository.  
+#### Ubuntu/Debian
+1. Install "_**nodejs**_" and "_**npm**_" from the apt repository.  
         `sudo apt-get install nodejs`  
         `sudo ln -s "$(which nodejs)" /usr/local/bin/node`  
         `sudo apt-get install npm`  
 2. Create a node directory.  
         `mkdir -p /home/<username>/Development/tekhelet-source`  
         `cd /home/<username>/Development/tekhelet-source`  
-3. From a terminal window, install "**bootstrap**" locally.  
+3. From a terminal window, install "_**bootstrap**_" locally.  
         `npm install bootstrap@3`  
         `mkdir -p sources/css/bootstrap`  
         `cp -a node_modules/bootstrap sources/css/`  
-4. From a terminal window, install "**grunt**" globally.  
+4. From a terminal window, install "_**grunt**_" globally.  
         `sudo npm install -g grunt-cli`  
-5. From a terminal window, install "**grunt**" locally.  
+5. From a terminal window, install "_**grunt**_" locally.  
         `npm install grunt --save-dev`  
         `npm install grunt-contrib-copy --save-dev`
         `npm install grunt-shell --save-dev`  
@@ -135,7 +136,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `npm install time-grunt --save-dev`  
         `npm install shelljs --save-dev`  
         `npm install shx --save-dev`  
-6. Run "**npm install**" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**  
+6. Run "_**npm install**_" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**  
         `npm install`  
         `npm install sources/css/bootstrap`  
         `npm install sources/css/tekhelet`  
@@ -143,5 +144,5 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `cd /home/<username>/Development/tekhelet-source`  
         `grunt`  
 
-## Other Distro's
-1. Should be similar to what is documented above; just use your distribution's package manager to install NPM.  
+#### Other Distro's
+1. Should be similar to what is documented above; just use your distribution's package manager to install "_**npm**_".  
