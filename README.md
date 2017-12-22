@@ -1,15 +1,12 @@
 # Tekhelet
-
 **Tekhelet** – The look and feel of the Kisow Foundation.  
 Matthew R. Kisow, D.Sc. <matthew.kisow@kisow.org>  
 Copyright &copy; Kisow Foundation, Inc.&reg; 2015-2017.
 
-The Tekhelet theme is based in part on the Tyrian theme by Alex Legler.
-
-## History
+## Getting Started
 Tekhelet, is an ancient blue-violet dye that was made from the marine creature known as the Hillazon.  This dye is mentioned throughout the Hebrew Tanakh (Bible) and was the color traditionally worn by the religions high priests.  This color can range from violet-blue to  a bluish purple.
 
-## Development
+## Installation
 1. From your development directory the clone tekhelet-source from this repository by typing:  
         `mkdir -p /Users/<username>/Development/tekhelet-source`  
         `cd /Users/<username>/Development/tekhelet-source`  
@@ -145,4 +142,16 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
         `grunt`  
 
 ##### Other Distro's
-1. Should be similar to what is documented above; just use your distribution's package manager to install "_**npm**_".  
+1. Should be similar to what is documented above; just use your distribution's package manager to install "_**npm**_".
+
+## License
+License (GPL v3.0)
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+## Acknowledgments
+The **Tekhelet** theme is based in part on the **Tyrian** theme by Alex Legler.
