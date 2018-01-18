@@ -7,139 +7,169 @@ Copyright &copy; Kisow Foundation, Inc.&reg; 2015-2017.
 Tekhelet, is an ancient blue-violet dye that was made from the marine creature known as the Hillazon.  This dye is mentioned throughout the Hebrew Tanakh (Bible) and was the color traditionally worn by the religions high priests.  This color can range from violet-blue to  a bluish purple.
 
 ## Installation
-1. From your development directory the clone tekhelet-source from this repository by typing:  
-        `mkdir -p /Users/<username>/Development/tekhelet-source`  
-        `cd /Users/<username>/Development/tekhelet-source`  
-        `git clone https://github.com/DoctorKisow/tekhelet-source.git`
+1. From your development directory the clone tekhelet-source from this repository by typing:
+```shell  
+     mkdir -p /Users/<username>/Development/tekhelet-source  
+     cd /Users/<username>/Development/tekhelet-source  
+     git clone https://github.com/DoctorKisow/tekhelet-source.git
+```
 2. Follow the instructions below for your particular distribution:
 
 ##### macOS
 1. Download and install the **node.js** package from https://nodejs.org/it/download.  
-2. From a terminal window, install "_**npm**_" globally.  
-        `sudo npm install npm --global`
-3. Create a node directory.  
-        `mkdir -p /Users/<username>/Development/tekhelet-source`  
-        `cd /Users/<username>/Development/tekhelet-source`  
-4. From a terminal window, install "_**bootstrap**_" locally.  
-        `npm install bootstrap@3`  
-        `mkdir -p sources/css/bootstrap`  
-        `cp -a node_modules/bootstrap sources/css/`  
+2. From a terminal window, install "_**npm**_" globally.
+```shell  
+     sudo npm install npm --global
+```
+3. Create a node directory.
+```shell  
+     mkdir -p /Users/<username>/Development/tekhelet-source  
+     cd /Users/<username>/Development/tekhelet-source
+``     
+4. From a terminal window, install "_**bootstrap**_" locally.
+```shell  
+     npm install bootstrap@3
+     mkdir -p sources/css/bootstrap  
+     cp -a node_modules/bootstrap sources/css/
+``     
 5. From a terminal window, install "_**grunt**_" globally.  
-        `sudo npm install -g grunt-cli`  
+```shell
+     sudo npm install -g grunt-cli
+``     
 6. From a terminal window, install "_**grunt**_" locally.  
-        `npm install grunt --save-dev`  
-        `npm install grunt-contrib-copy --save-dev`
-        `npm install grunt-shell --save-dev`  
-        `cd sources/css/tekhelet-source`  
-        `npm install grunt --save-dev`  
-        `npm install grunt-contrib-less --save-dev`  
-        `npm install grunt-contrib-watch --save-dev`  
-        `npm install grunt-copy --save-dev`  
-        `npm install grunt-replace --save-dev`  
-        `npm install grunt-sed --save-dev`  
-        `npm install grunt-shell --save-dev`  
-        `cd ../bootstrap`  
-        `npm install grunt --save-dev`  
-        `npm install markdown-it --save-dev`  
-        `npm install bota --save-dev`  
-        `npm install glob --save-dev`  
-        `npm install load-grunt-tasks --save-dev`  
-        `npm install grunt-autoprefixer --save-dev`  
-        `npm install grunt-contrib-clean --save-dev`  
-        `npm install grunt-contrib-compress --save-dev`  
-        `npm install grunt-contrib-concat --save-dev`  
-        `npm install grunt-contrib-connect --save-dev`  
-        `npm install grunt-contrib-copy --save-dev`  
-        `npm install grunt-contrib-csslint --save-dev`  
-        `npm install grunt-contrib-cssmin --save-dev`  
-        `npm install grunt-contrib-htmlmin --save-dev`  
-        `npm install grunt-contrib-jshint --save-dev`  
-        `npm install grunt-contrib-less --save-dev`  
-        `npm install grunt-contrib-pug --save-dev`  
-        `npm install grunt-contrib-qunit --save-dev`  
-        `npm install grunt-contrib-uglify --save-dev`  
-        `npm install grunt-contrib-watch --save-dev`  
-        `npm install grunt-csscomb --save-dev`  
-        `npm install grunt-exec --save-dev`  
-        `npm install grunt-html --save-dev`  
-        `npm install grunt-jekyll --save-dev`  
-        `npm install grunt-jscs --save-dev`  
-        `npm install grunt-saucelabs --save-dev`  
-        `npm install time-grunt --save-dev`  
-        `npm install shelljs --save-dev`  
-        `npm install shx --save-dev`  
-7. Run "_**npm install**_" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**  
-        `cd /Users/<username>/Development/tekhelet-source`  
-        `npm install`  
-        `npm install sources/css/bootstrap`  
-        `npm install sources/css/tekhelet`  
-8. Run "_**grunt**_" from the root of tekhelet  
-        `cd /Users/<username>/Development/tekhelet-source`  
-        `grunt`  
+```shell
+     npm install grunt --save-dev  
+     npm install grunt-contrib-copy --save-dev
+     npm install grunt-shell --save-dev  
+     cd sources/css/tekhelet-source  
+     npm install grunt --save-dev  
+     npm install grunt-contrib-less --save-dev  
+     npm install grunt-contrib-watch --save-dev  
+     npm install grunt-copy --save-dev  
+     npm install grunt-replace --save-dev  
+     npm install grunt-sed --save-dev  
+     npm install grunt-shell --save-dev  
+     cd ../bootstrap  
+     npm install grunt --save-dev  
+     npm install markdown-it --save-dev  
+     npm install bota --save-dev  
+     npm install glob --save-dev  
+     npm install load-grunt-tasks --save-dev  
+     npm install grunt-autoprefixer --save-dev  
+     npm install grunt-contrib-clean --save-dev  
+     npm install grunt-contrib-compress --save-dev  
+     npm install grunt-contrib-concat --save-dev  
+     npm install grunt-contrib-connect --save-dev  
+     npm install grunt-contrib-copy --save-dev  
+     npm install grunt-contrib-csslint --save-dev  
+     npm install grunt-contrib-cssmin --save-dev  
+     npm install grunt-contrib-htmlmin --save-dev  
+     npm install grunt-contrib-jshint --save-dev  
+     npm install grunt-contrib-less --save-dev  
+     npm install grunt-contrib-pug --save-dev  
+     npm install grunt-contrib-qunit --save-dev  
+     npm install grunt-contrib-uglify --save-dev  
+     npm install grunt-contrib-watch --save-dev  
+     npm install grunt-csscomb --save-dev  
+     npm install grunt-exec --save-dev  
+     npm install grunt-html --save-dev  
+     npm install grunt-jekyll --save-dev  
+     npm install grunt-jscs --save-dev  
+     npm install grunt-saucelabs --save-dev
+     npm install time-grunt --save-dev  
+     npm install shelljs --save-dev  
+     npm install shx --save-dev
+``     
+7. Run "_**npm install**_" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**
+```shell  
+     cd /Users/<username>/Development/tekhelet-source
+     npm install  
+     npm install sources/css/bootstrap
+     npm install sources/css/tekhelet
+```
+8. Run "_**grunt**_" from the root of tekhelet
+```shell
+     cd /Users/<username>/Development/tekhelet-source  
+     grunt  
+```
 
 ##### Ubuntu/Debian
-1. Install "_**nodejs**_" and "_**npm**_" from the apt repository.  
-        `sudo apt-get install nodejs`  
-        `sudo ln -s "$(which nodejs)" /usr/local/bin/node`  
-        `sudo apt-get install npm`  
-2. Create a node directory.  
-        `mkdir -p /home/<username>/Development/tekhelet-source`  
-        `cd /home/<username>/Development/tekhelet-source`  
-3. From a terminal window, install "_**bootstrap**_" locally.  
-        `npm install bootstrap@3`  
-        `mkdir -p sources/css/bootstrap`  
-        `cp -a node_modules/bootstrap sources/css/`  
-4. From a terminal window, install "_**grunt**_" globally.  
-        `sudo npm install -g grunt-cli`  
-5. From a terminal window, install "_**grunt**_" locally.  
-        `npm install grunt --save-dev`  
-        `npm install grunt-contrib-copy --save-dev`
-        `npm install grunt-shell --save-dev`  
-        `cd sources/css/tekhelet-source`  
-        `npm install grunt --save-dev`  
-        `npm install grunt-contrib-less --save-dev`  
-        `npm install grunt-contrib-watch --save-dev`  
-        `npm install grunt-copy --save-dev`  
-        `npm install grunt-replace --save-dev`  
-        `npm install grunt-sed --save-dev`  
-        `npm install grunt-shell --save-dev`  
-        `cd ../bootstrap`  
-        `npm install grunt --save-dev`  
-        `npm install markdown-it --save-dev`  
-        `npm install bota --save-dev`  
-        `npm install glob --save-dev`  
-        `npm install load-grunt-tasks --save-dev`  
-        `npm install grunt-autoprefixer --save-dev`  
-        `npm install grunt-contrib-clean --save-dev`  
-        `npm install grunt-contrib-compress --save-dev`  
-        `npm install grunt-contrib-concat --save-dev`  
-        `npm install grunt-contrib-connect --save-dev`  
-        `npm install grunt-contrib-copy --save-dev`  
-        `npm install grunt-contrib-csslint --save-dev`  
-        `npm install grunt-contrib-cssmin --save-dev`  
-        `npm install grunt-contrib-htmlmin --save-dev`  
-        `npm install grunt-contrib-jshint --save-dev`  
-        `npm install grunt-contrib-less --save-dev`  
-        `npm install grunt-contrib-pug --save-dev`  
-        `npm install grunt-contrib-qunit --save-dev`  
-        `npm install grunt-contrib-uglify --save-dev`  
-        `npm install grunt-contrib-watch --save-dev`  
-        `npm install grunt-csscomb --save-dev`  
-        `npm install grunt-exec --save-dev`  
-        `npm install grunt-html --save-dev`  
-        `npm install grunt-jekyll --save-dev`  
-        `npm install grunt-jscs --save-dev`  
-        `npm install grunt-saucelabs --save-dev`  
-        `npm install time-grunt --save-dev`  
-        `npm install shelljs --save-dev`  
-        `npm install shx --save-dev`  
-6. Run "_**npm install**_" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**  
-        `npm install`  
-        `npm install sources/css/bootstrap`  
-        `npm install sources/css/tekhelet`  
-7. Run "_**grunt**_" from the root of tekhelet-source  
-        `cd /home/<username>/Development/tekhelet-source`  
-        `grunt`  
+1. Install "_**nodejs**_" and "_**npm**_" from the apt repository.
+```shell
+     sudo apt-get install nodejs  
+     sudo ln -s "$(which nodejs)" /usr/local/bin/node  
+     sudo apt-get install npm
+```
+2. Create a node directory.
+```shell  
+     mkdir -p /home/<username>/Development/tekhelet-source  
+     cd /home/<username>/Development/tekhelet-source
+```
+3. From a terminal window, install "_**bootstrap**_" locally.
+```shell
+     npm install bootstrap@3  
+     mkdir -p sources/css/bootstrap  
+     cp -a node_modules/bootstrap sources/css/
+``     
+4. From a terminal window, install "_**grunt**_" globally.
+```shell  
+     sudo npm install -g grunt-cli
+```
+5. From a terminal window, install "_**grunt**_" locally.
+```shell
+     npm install grunt --save-dev
+     npm install grunt-contrib-copy --save-dev
+     npm install grunt-shell --save-dev
+     cd sources/css/tekhelet-source
+     npm install grunt --save-dev     
+     npm install grunt-contrib-less --save-dev     
+     npm install grunt-contrib-watch --save-dev     
+     npm install grunt-copy --save-dev     
+     npm install grunt-replace --save-dev     
+     npm install grunt-sed --save-dev     
+     npm install grunt-shell --save-dev     
+     cd ../bootstrap     
+     npm install grunt --save-dev     
+     npm install markdown-it --save-dev     
+     npm install bota --save-dev     
+     npm install glob --save-dev     
+     npm install load-grunt-tasks --save-dev     
+     npm install grunt-autoprefixer --save-dev     
+     npm install grunt-contrib-clean --save-dev     
+     npm install grunt-contrib-compress --save-dev     
+     npm install grunt-contrib-concat --save-dev     
+     npm install grunt-contrib-connect --save-dev     
+     npm install grunt-contrib-copy --save-dev     
+     npm install grunt-contrib-csslint --save-dev     
+     npm install grunt-contrib-cssmin --save-dev     
+     npm install grunt-contrib-htmlmin --save-dev     
+     npm install grunt-contrib-jshint --save-dev     
+     npm install grunt-contrib-less --save-dev     
+     npm install grunt-contrib-pug --save-dev     
+     npm install grunt-contrib-qunit --save-dev     
+     npm install grunt-contrib-uglify --save-dev     
+     npm install grunt-contrib-watch --save-dev     
+     npm install grunt-csscomb --save-dev     
+     npm install grunt-exec --save-dev     
+     npm install grunt-html --save-dev     
+     npm install grunt-jekyll --save-dev     
+     npm install grunt-jscs --save-dev     
+     npm install grunt-saucelabs --save-dev     
+     npm install time-grunt --save-dev     
+     npm install shelljs --save-dev     
+     npm install shx --save-dev
+```
+6. Run "_**npm install**_" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**
+```shell
+     npm install     
+     npm install sources/css/bootstrap     
+     npm install sources/css/tekhelet
+```
+7. Run "_**grunt**_" from the root of tekhelet-source.
+```shell
+     cd /home/<username>/Development/tekhelet-source     
+     grunt     
+```
 
 ##### Other Distro's
 1. Should be similar to what is documented above; just use your distribution's package manager to install "_**npm**_".
