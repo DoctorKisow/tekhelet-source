@@ -25,17 +25,17 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
 ```shell  
      mkdir -p /Users/<username>/Development/tekhelet-source  
      cd /Users/<username>/Development/tekhelet-source
-``     
+```
 4. From a terminal window, install "_**bootstrap**_" locally.
 ```shell  
      npm install bootstrap@3
      mkdir -p sources/css/bootstrap  
      cp -a node_modules/bootstrap sources/css/
-``     
+```
 5. From a terminal window, install "_**grunt**_" globally.  
 ```shell
      sudo npm install -g grunt-cli
-``     
+```
 6. From a terminal window, install "_**grunt**_" locally.  
 ```shell
      npm install grunt --save-dev  
@@ -79,7 +79,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
      npm install time-grunt --save-dev  
      npm install shelljs --save-dev  
      npm install shx --save-dev
-``     
+```
 7. Run "_**npm install**_" in the root of **tekhelet-source**, **tekhelet-source/sources/css/bootstrap** and **tekhelet-source/sources/css/tekhelet**
 ```shell  
      cd /Users/<username>/Development/tekhelet-source
@@ -110,7 +110,7 @@ Tekhelet, is an ancient blue-violet dye that was made from the marine creature k
      npm install bootstrap@3  
      mkdir -p sources/css/bootstrap  
      cp -a node_modules/bootstrap sources/css/
-``     
+```
 4. From a terminal window, install "_**grunt**_" globally.
 ```shell  
      sudo npm install -g grunt-cli
